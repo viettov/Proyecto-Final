@@ -1,0 +1,41 @@
+.main_index {
+    background-color: $colorFondo;
+    .titulo {
+        color: $verdeOscuro;
+        font-family: $fuentePrincipal;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 5px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+    .informacion {
+        color:white;
+    }
+    
+    .informacion:hover {
+        color: white;
+        font-weight: bold;
+    }
+
+    .texto__index {
+        color: #66806A;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .link {
+        color: #184D47;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        padding-bottom: 0.3rem;
+    }
+    .link:hover {
+        color: #EA5C2B;
+    }
+}

@@ -1,0 +1,18 @@
+header {
+    background-color: $colorFondo;
+    font-family: $fuentePrincipal;
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: $naranjaOscuro;
+        &:hover {
+            color: $azulOscuro;
+            background-color: $beige;
+        }
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: $naranjaClaro;
+        &:hover {
+            color: $azulOscuro;
+            background-color: $beige;
+        }
+    }
+}
