@@ -1,0 +1,72 @@
+.main__contacto {
+    background-color: map-get($paletaDeColores, colorFondo);
+    
+    .titulo {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        font-size: 1.7rem;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .texto {
+        color: map-get($paletaDeColores, verdeClaro);
+        font-family: $fuentePrincipal;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .link {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        padding-bottom: 0.3rem;
+    }
+
+    .link:hover {
+        color: map-get($paletaDeColores, naranjaChillon);
+    }
+
+    .form-control {
+        margin: 0.7rem;
+        color: #184D47;
+        border: solid 1px ;
+        border-radius: 5px;
+        font-family: 'DM Sans', sans-serif;
+        background-color: #F3F0D7;
+    }
+
+    .form-control:focus {
+        color: map-get($paletaDeColores, azulOscuro);
+        background-color: map-get($paletaDeColores, blanco);
+        border: none;
+    }
+    
+    .form-control::placeholder {
+        color:map-get($paletaDeColores, azulOscuro);
+    }
+    
+    .form-check-label, .form-check-input {
+        color: map-get($paletaDeColores, azulOscuro);
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding:0.8rem;
+    }
+    
+    .btn {
+        color: map-get($paletaDeColores, azulOscuro);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .btn:hover {
+        color: map-get($paletaDeColores, colorFondo);
+        background-color: map-get($paletaDeColores, azulOscuro);
+    }
+}

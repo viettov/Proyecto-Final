@@ -1,0 +1,35 @@
+@mixin fsizeYtalign($fsize, $talign) {
+    font-size: $fsize;
+    text-align: $talign;   
+}
+
+.main__novedades {
+    background-color: map-get($paletaDeColores, colorFondo);
+    .titulo {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        @include fsizeYtalign(1.7rem, center);
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .texto {
+        color: map-get($paletaDeColores, verdeClaro);
+        font-family: $fuentePrincipal;
+        @include fsizeYtalign(1rem, center);
+    }
+    
+    .link {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        @include fsizeYtalign(1.2rem, center);
+        font-weight: bold;
+        text-decoration: none;
+        padding-bottom: 0.3rem;
+    }
+    .link:hover {
+        color: map-get($paletaDeColores, naranjaChillon);
+    }
+}

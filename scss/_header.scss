@@ -1,18 +1,18 @@
 header {
-    background-color: $colorFondo;
+    background-color: map-get($paletaDeColores, colorFondo);
     font-family: $fuentePrincipal;
     .navbar-light .navbar-nav .active>.nav-link {
-        color: $naranjaOscuro;
+        color: map-get($paletaDeColores, naranjaOscuro);
         &:hover {
-            color: $azulOscuro;
-            background-color: $beige;
+            color: map-get($paletaDeColores, azulOscuro);
+            background-color: map-get($paletaDeColores, beige);
         }
     }
     .navbar-light .navbar-nav .nav-link{
-        color: $naranjaClaro;
+        color: map-get($paletaDeColores, naranjaClaro);
         &:hover {
-            color: $azulOscuro;
-            background-color: $beige;
+            color: map-get($paletaDeColores, azulOscuro);
+            background-color: map-get($paletaDeColores, beige);
         }
     }
 }

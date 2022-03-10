@@ -23,9 +23,9 @@ footer {
   footer .footer__redes {
     padding: 2rem; }
 
-.main_index {
+.main__index {
   background-color: #EEEEEE; }
-  .main_index .titulo {
+  .main__index .titulo, .main__index .main__seleccionados .titulo__seleccionados, .main__seleccionados .main__index .titulo__seleccionados {
     color: #184D47;
     font-family: "DM Sans", sans-serif;
     font-size: 1.7rem;
@@ -34,23 +34,152 @@ footer {
     letter-spacing: 5px;
     padding-top: 0.5rem;
     padding-bottom: 0.3rem; }
-  .main_index .informacion {
+  .main__index .informacion {
     color: white; }
-  .main_index .informacion:hover {
+  .main__index .informacion:hover {
     color: white;
     font-weight: bold; }
-  .main_index .texto__index {
+  .main__index .texto__index {
     color: #66806A;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 1.2rem;
     text-align: center; }
-  .main_index .link {
+  .main__index .link {
     color: #184D47;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     padding-bottom: 0.3rem; }
-  .main_index .link:hover {
+  .main__index .link:hover {
     color: #EA5C2B; }
+
+.main__novedades {
+  background-color: #EEEEEE; }
+  .main__novedades .titulo, .main__novedades .main__seleccionados .titulo__seleccionados, .main__seleccionados .main__novedades .titulo__seleccionados {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem; }
+  .main__novedades .texto {
+    color: #66806A;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center; }
+  .main__novedades .link {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 0.3rem; }
+  .main__novedades .link:hover {
+    color: #EA5C2B; }
+
+.main__nosotros {
+  background-color: #EEEEEE; }
+  .main__nosotros .titulo, .main__nosotros .main__seleccionados .titulo__seleccionados, .main__seleccionados .main__nosotros .titulo__seleccionados {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem; }
+  .main__nosotros .texto {
+    color: #66806A;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center; }
+
+.main__seleccionados {
+  background-color: #EEEEEE; }
+  .main__seleccionados .titulo, .main__seleccionados .titulo__seleccionados {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem; }
+  .main__seleccionados .titulo__seleccionados {
+    font-size: 1rem; }
+  .main__seleccionados .imagen__seleccionados {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.3rem; }
+  .main__seleccionados .texto {
+    color: #66806A;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center; }
+  .main__seleccionados .link {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 0.3rem; }
+  .main__seleccionados .link:hover {
+    color: #EA5C2B; }
+
+.main__contacto {
+  background-color: #EEEEEE; }
+  .main__contacto .titulo, .main__contacto .main__seleccionados .titulo__seleccionados, .main__seleccionados .main__contacto .titulo__seleccionados {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem; }
+  .main__contacto .texto {
+    color: #66806A;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center; }
+  .main__contacto .link {
+    color: #184D47;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 0.3rem; }
+  .main__contacto .link:hover {
+    color: #EA5C2B; }
+  .main__contacto .form-control {
+    margin: 0.7rem;
+    color: #184D47;
+    border: solid 1px;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #F3F0D7; }
+  .main__contacto .form-control:focus {
+    color: #081b19;
+    background-color: white;
+    border: none; }
+  .main__contacto .form-control::placeholder {
+    color: #081b19; }
+  .main__contacto .form-check-label, .main__contacto .form-check-input {
+    color: #081b19;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem; }
+  .main__contacto .btn {
+    color: #081b19;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .main__contacto .btn:hover {
+    color: #EEEEEE;
+    background-color: #081b19; }

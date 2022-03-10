@@ -1,0 +1,44 @@
+.main__seleccionados {
+    background-color: map-get($paletaDeColores, colorFondo);
+    .titulo {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 5px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .titulo__seleccionados {
+        @extend .titulo;
+        font-size: 1rem;
+    }
+
+    .imagen__seleccionados {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0.3rem;
+    }
+
+    .texto {
+        color: map-get($paletaDeColores, verdeClaro);
+        font-family: $fuentePrincipal;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .link {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        padding-bottom: 0.3rem;
+    }
+    .link:hover {
+        color: map-get($paletaDeColores, naranjaChillon);
+    }
+}

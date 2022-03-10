@@ -1,7 +1,7 @@
-.main_index {
-    background-color: $colorFondo;
+.main__index {
+    background-color: map-get($paletaDeColores, colorFondo);
     .titulo {
-        color: $verdeOscuro;
+        color: map-get($paletaDeColores, verdeOscuro);
         font-family: $fuentePrincipal;
         font-size: 1.7rem;
         font-weight: bold;
@@ -11,24 +11,24 @@
         padding-bottom: 0.3rem;
     }
     .informacion {
-        color:white;
+        color: map-get($paletaDeColores, blanco);
     }
     
     .informacion:hover {
-        color: white;
+        color: map-get($paletaDeColores, blanco);
         font-weight: bold;
     }
 
     .texto__index {
-        color: #66806A;
-        font-family: 'DM Sans', sans-serif;
+        color: map-get($paletaDeColores, verdeClaro);
+        font-family: $fuentePrincipal;
         font-size: 1.2rem;
         text-align: center;
     }
     
     .link {
-        color: #184D47;
-        font-family: 'DM Sans', sans-serif;
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
         font-size: 1.2rem;
         font-weight: bold;
         text-align: center;
@@ -36,6 +36,6 @@
         padding-bottom: 0.3rem;
     }
     .link:hover {
-        color: #EA5C2B;
+        color: map-get($paletaDeColores, naranjaChillon);
     }
 }

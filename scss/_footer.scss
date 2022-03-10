@@ -3,7 +3,7 @@ footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
     .texto__footer {
-        color: $naranjaChillon;
+        color: map-get($paletaDeColores, naranjaChillon);
         font-family: $fuentePrincipal;
         font-weight: bold;
     }

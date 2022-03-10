@@ -1,0 +1,20 @@
+.main__nosotros {
+    background-color: map-get($paletaDeColores, colorFondo);
+    .titulo {
+        color: map-get($paletaDeColores, verdeOscuro);
+        font-family: $fuentePrincipal;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 5px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .texto {
+        color: map-get($paletaDeColores, verdeClaro);
+        font-family: $fuentePrincipal;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
