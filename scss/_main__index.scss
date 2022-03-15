@@ -12,12 +12,12 @@
     }
     .informacion {
         color: map-get($paletaDeColores, blanco);
-        &:hover {
-            color: map-get($paletaDeColores, blanco);
-            font-weight: bold;
-        }
     }
     
+    .informacion:hover {
+        color: map-get($paletaDeColores, blanco);
+        font-weight: bold;
+    }
 
     .texto__index {
         color: map-get($paletaDeColores, verdeClaro);
@@ -34,8 +34,8 @@
         text-align: center;
         text-decoration: none;
         padding-bottom: 0.3rem;
-        &:hover {
-            color: map-get($paletaDeColores, naranjaChillon);
-        }
+    }
+    .link:hover {
+        color: map-get($paletaDeColores, naranjaChillon);
     }
 }
