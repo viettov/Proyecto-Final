@@ -129,8 +129,8 @@ footer {
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 0.3rem; }
-  .main__seleccionados .link:hover {
-    color: #EA5C2B; }
+    .main__seleccionados .link:hover {
+      color: #EA5C2B; }
 
 .main__contacto {
   background-color: #EEEEEE; }
