@@ -36,9 +36,9 @@ footer {
     padding-bottom: 0.3rem; }
   .main__index .informacion {
     color: white; }
-  .main__index .informacion:hover {
-    color: white;
-    font-weight: bold; }
+    .main__index .informacion:hover {
+      color: white;
+      font-weight: bold; }
   .main__index .texto__index {
     color: #66806A;
     font-family: "DM Sans", sans-serif;
@@ -52,8 +52,8 @@ footer {
     text-align: center;
     text-decoration: none;
     padding-bottom: 0.3rem; }
-  .main__index .link:hover {
-    color: #EA5C2B; }
+    .main__index .link:hover {
+      color: #EA5C2B; }
 
 .main__novedades {
   background-color: #EEEEEE; }
@@ -79,8 +79,8 @@ footer {
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 0.3rem; }
-  .main__novedades .link:hover {
-    color: #EA5C2B; }
+    .main__novedades .link:hover {
+      color: #EA5C2B; }
 
 .main__nosotros {
   background-color: #EEEEEE; }
@@ -156,8 +156,8 @@ footer {
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 0.3rem; }
-  .main__contacto .link:hover {
-    color: #EA5C2B; }
+    .main__contacto .link:hover {
+      color: #EA5C2B; }
   .main__contacto .form-control {
     margin: 0.7rem;
     color: #184D47;
@@ -165,12 +165,12 @@ footer {
     border-radius: 5px;
     font-family: 'DM Sans', sans-serif;
     background-color: #F3F0D7; }
-  .main__contacto .form-control:focus {
-    color: #081b19;
-    background-color: white;
-    border: none; }
-  .main__contacto .form-control::placeholder {
-    color: #081b19; }
+    .main__contacto .form-control:focus {
+      color: #081b19;
+      background-color: white;
+      border: none; }
+    .main__contacto .form-control::placeholder {
+      color: #081b19; }
   .main__contacto .form-check-label, .main__contacto .form-check-input {
     color: #081b19;
     margin-top: 0.5rem;
@@ -180,6 +180,6 @@ footer {
     color: #081b19;
     margin-top: 1rem;
     margin-bottom: 1rem; }
-  .main__contacto .btn:hover {
-    color: #EEEEEE;
-    background-color: #081b19; }
+    .main__contacto .btn:hover {
+      color: #EEEEEE;
+      background-color: #081b19; }
