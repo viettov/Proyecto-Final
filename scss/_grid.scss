@@ -1,0 +1,88 @@
+.grid {
+    display: grid;
+    grid-template-columns:100%;
+	grid-template-rows: auto auto auto;
+    grid-template-areas:
+	"header"
+	"main"
+	"footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media only screen and (min-width: 1024px){
+    .main__seleccionados {
+        display:flex;
+        flex-direction: column;
+        .titulos__desktop {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat (2, auto);
+            grid-template-areas:
+            "primera__card segunda__card tercera__card"
+            "cuarta__card quinta__card sexta__card";
+            grid-column-gap: 15px;
+            align-items: flex-start;
+        }
+        .titulos__mobile {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main__seleccionados {
+        display:flex;
+        flex-direction: column;
+        .titulos__desktop {
+            display: none;
+        }
+        .titulos__mobile {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.primera__card {
+    grid-area: primera__card;
+}
+
+.segunda__card {
+    grid-area: segunda__card;
+}
+
+.tercera__card {
+    grid-area: tercera__card;
+}
+
+.cuarta__card {
+    grid-area: cuarta__card;
+}
+
+.quinta__card {
+    grid-area: quinta__card;
+}
+
+.sexta__card {
+    grid-area: sexta__card;
+}
+
+.primera__card, .segunda__card, .tercera__card, .cuarta__card, .quinta__card, .sexta__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}

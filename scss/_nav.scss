@@ -1,0 +1,25 @@
+nav {
+    ul {
+        display: flex;
+        padding-right: 2rem;
+        li {
+            list-style-type: none;
+            margin: 1rem;
+            a {
+                color: map-get($paletaDeColores, naranjaClaro);
+                text-decoration: none;
+                &:hover {
+                    color: map-get($paletaDeColores, azulOscuro);
+                    background-color: map-get($paletaDeColores, beige);
+                }
+            }
+            .nav__seleccionado {
+                color: map-get($paletaDeColores, naranjaOscuro);
+                &:hover {
+                    color: map-get($paletaDeColores, azulOscuro);
+                    background-color: map-get($paletaDeColores, beige);
+                }
+            }
+        }
+    }
+}

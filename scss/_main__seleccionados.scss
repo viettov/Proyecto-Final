@@ -11,25 +11,25 @@
         padding-bottom: 0.3rem;
     }
 
-    .titulo__seleccionados {
+    .card__titulo {
         @extend .titulo;
         font-size: 1rem;
     }
 
-    .imagen__seleccionados {
+    .card__imagen {
         display: flex;
         justify-content: center;
-        padding-bottom: 0.3rem;
+        padding-bottom: 1rem;
     }
 
-    .texto {
+    .card__texto {
         color: map-get($paletaDeColores, verdeClaro);
         font-family: $fuentePrincipal;
         font-size: 1rem;
         text-align: center;
     }
 
-    .link {
+    .card__pie {
         color: map-get($paletaDeColores, verdeOscuro);
         font-family: $fuentePrincipal;
         font-size: 1rem;
