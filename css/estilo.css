@@ -322,10 +322,11 @@ footer {
   padding-bottom: 1.5rem; }
 
 nav ul {
-  display: flex;
-  padding-right: 2rem; }
+  padding-right: 2rem;
+  overflow: hidden; }
   nav ul li {
     list-style-type: none;
+    display: inline;
     margin: 1rem; }
     nav ul li a {
       color: #FF7F3F;

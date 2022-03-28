@@ -1,9 +1,10 @@
 nav {
     ul {
-        display: flex;
         padding-right: 2rem;
+        overflow:hidden;
         li {
             list-style-type: none;
+            display: inline;
             margin: 1rem;
             a {
                 color: map-get($paletaDeColores, naranjaClaro);
